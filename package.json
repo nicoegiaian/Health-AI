@@ -6,9 +6,10 @@
   "main": "index.js",
   "scripts": {
     "dev": "concurrently \"node auth/server.js\" \"next dev\"",
-    "build": "concurrently \"node auth/server.js\" \"next build\"",
+    "build": "next build",
     "start": "concurrently \"node auth/server.js\" \"next start\"",
-    "lint": "next"
+    "lint": "next",
+    "server": "node auth/server.js"
   },
   "keywords": [],
   "author": "",
